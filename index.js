@@ -31,7 +31,7 @@ function sayHiToGrandma(string){
 
   return "YES INDEED!"
 
-} else if (mixedCase === "I love you, Grandma."){
+} else if (string === "I love you, Grandma."){
 
   var mixedCase = "I love you, Grandma."
 
