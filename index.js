@@ -10,6 +10,11 @@ return string.toLowerCase();
 }
 
 function logShout(string){
+  var UpperCaseStr = shout(string);
+  console.log(UpperCaseStr)
+}
 
-  console.log(shout(string))
+function logWhisper(string){
+  var LowerCaseStr = whisper(string);
+  console.log(LowerCaseStr)
 }
